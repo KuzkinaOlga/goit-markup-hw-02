@@ -2,3 +2,26 @@
 /*color title-text: #212121*/
 /*color text: #757575*/
 /*color accent: #2196F3*/
+
+body {
+  background-color: #fff;
+  color: #757575;
+}
+.logo {
+  color: #000;
+}
+
+.site-nav {
+  color: #000;
+}
+.site-nav:hover {
+  color: #2196f3;
+}
+.contacts {
+  color: #000;
+  color: #2196f3;
+}
+
+ul {
+  list-style: none;
+}
