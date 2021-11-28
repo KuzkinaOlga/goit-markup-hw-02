@@ -1,27 +1,167 @@
-/*color background: #FFFFFF */
-/*color title-text: #212121*/
-/*color text: #757575*/
-/*color accent: #2196F3*/
+:root {
+  --background-color: #ffffff;
+  --theme-color: #2196f3;
+  --tittle-text-color: #212121;
+  --text-primery: #757575;
+
+  --primery-font: 'Roboto';
+  --secondary-font: 'Raleway';
+}
 
 body {
-  background-color: #fff;
+  font-family: var(--primery-font);
+  background-color: var(--background-color);
+  color: var(--text-primery);
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+address {
+  font-style: normal;
+}
+
+/* ======== header styles starts here ======= */
+.header {
+  font-family: var(--tittle-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+.header:hover,
+.header:focus {
+  color: var(--theme-color);
+}
+.linkbox {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--text-primery);
+}
+.section-order {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  /* or 136% */
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  background-color: var(--tittle-text-color);
+  color: #ffffff;
+}
+.button-order {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
+  /* identical to box height, or 187% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: var(--theme-color);
+  color: #ffffff;
+}
+.section-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.section-text {
+  font-size: 14px;
+  line-height: 1.7;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
   color: #757575;
 }
-.logo {
-  color: #000;
+.section-title-aboutus {
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
-
-.site-nav {
-  color: #000;
+.our-team {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
-.site-nav:hover {
+.profession {
+  font-size: 16px;
+  line-height: 1.2;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.nav-button {
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1.6;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.nav-button:hover,
+.nav-button:focus {
+  color: var(--theme-color);
+}
+.footer {
+  background-color: var(--tittle-text-color);
+}
+.logo-footer {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  /* identical to box height */
+  letter-spacing: 0.03em;
   color: #2196f3;
 }
-.contacts {
-  color: #000;
-  color: #2196f3;
+.adress-link {
+  font-size: 14px;
+  line-height: 1.7;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
-
-ul {
-  list-style: none;
+.contacts-footer {
+  font-size: 14px;
+  line-height: 1.7;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.name-projects {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.project {
+  font-size: 16px;
+  line-height: 1.9;
+  /* identical to box height, or 187% */
+  letter-spacing: 0.03em;
+  color: #757575;
 }
