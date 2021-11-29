@@ -51,11 +51,25 @@ address {
   color: var(--theme-color);
 }
 .linkbox {
+  font-family: var(--text-primery);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
   color: var(--text-primery);
+  text-decoration: none;
+}
+.linkbox-link {
+  color: var(--text-primery);
+}
+.linkbox-link:hover,
+.linkbox-link:focus {
+  font-family: var(--tittle-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--theme-color);
 }
 .section-order {
   font-weight: 900;
@@ -156,7 +170,7 @@ address {
   line-height: 1.7;
   /* or 171% */
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--background-color);
 }
 
 .contacts-footer {
@@ -164,6 +178,9 @@ address {
   line-height: 1.7;
   /* or 171% */
   letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.contacts-footer-link {
   color: rgba(255, 255, 255, 0.6);
 }
 .name-projects {
