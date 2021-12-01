@@ -28,15 +28,16 @@ address {
 
 /* ======== header styles starts here ======= */
 .site-nav-link {
-  color: var(--tittle-text-color);
-}
-.site-nav-link:hover,
-.site-nav-link:focus {
   font-family: var(--tittle-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
+  color: var(--tittle-text-color);
+  text-decoration: none;
+}
+.site-nav-link:hover,
+.site-nav-link:focus {
   color: var(--theme-color);
 }
 .logo {
@@ -60,18 +61,21 @@ address {
   text-decoration: none;
 }
 .linkbox-link {
-  color: var(--text-primery);
-}
-.linkbox-link:hover,
-.linkbox-link:focus {
   font-family: var(--tittle-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
+  color: var(--text-primery);
+}
+.linkbox-link:hover,
+.linkbox-link:focus {
   color: var(--theme-color);
 }
 .section-order {
+  background-color: var(--tittle-text-color);
+}
+.section-order-hero {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -79,7 +83,6 @@ address {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  background-color: var(--tittle-text-color);
   color: #ffffff;
 }
 .button-order {
@@ -150,6 +153,22 @@ address {
 .nav-button:focus {
   color: var(--theme-color);
 }
+
+.name-projects {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.project {
+  font-size: 16px;
+  line-height: 1.9;
+  /* identical to box height, or 187% */
+  letter-spacing: 0.03em;
+  color: #757575;
+}
 .footer {
   background-color: var(--tittle-text-color);
 }
@@ -182,19 +201,4 @@ address {
 }
 .contacts-footer-link {
   color: rgba(255, 255, 255, 0.6);
-}
-.name-projects {
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 2;
-  /* identical to box height, or 200% */
-  letter-spacing: 0.06em;
-  color: #212121;
-}
-.project {
-  font-size: 16px;
-  line-height: 1.9;
-  /* identical to box height, or 187% */
-  letter-spacing: 0.03em;
-  color: #757575;
 }
