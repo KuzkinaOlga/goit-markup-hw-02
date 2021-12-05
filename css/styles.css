@@ -40,9 +40,7 @@ address {
 .site-nav-link:focus {
   color: var(--theme-color);
 }
-.site-nav-link:active {
-  color: var(--theme-color);
-}
+
 .logo {
   font-family: Raleway, sans-serif;
   font-weight: 700;
